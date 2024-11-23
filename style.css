@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    nav {
+        height: 80px;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0rem calc((100w - 1300px) / 2);
+    }
+
+    .logo {
+        color:purple;
+        font-size: 2.0rem;
+        font-weight: bold;
+        font-style: italic;
+        padding: 3.2rem;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+        padding: 0 2.0rem;
+    }
+
+    .hero-container {
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 95vh;
+
+
+    }
+    .hero {
+        background: aquamarine;
+    }
+
+    .column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: black;
+        padding: 0rem 3rem;
+    }
+
+    .column-left h1 {
+        margin-bottom: 1rem;
+        font-size: 3rem;
+    }
+
+    .column-left p {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    img {
+        width: 400px;
+        height: auto;
+        position: fixed;
+        top: 350px;
+        right: 30px;
+    }
+    
